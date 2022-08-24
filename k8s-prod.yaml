@@ -25,7 +25,7 @@ apiVersion: v1
 kind: Service
 metadata:
    name: jenkins-demo
-   namespace: production
+   namespace: pro
 spec:
    selector:
      app: jenkins-demo
